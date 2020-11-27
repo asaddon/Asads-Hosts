@@ -24,12 +24,10 @@ jobs:
           architecture: "x64"
         
       - name: Install Python Add-ons
-        run: pip install git+https://github.com/funilrys/PyFunceble.git@master#egg=PyFunceble
+        run: pip install git+https://github.com/funilrys/PyFunceble.git@dev#egg=PyFunceble
 
       - name: Run PyFunceble
-        run: |
-            wget -O Hosts https://raw.githubusercontent.com/asaddon/Asads-Hosts/master/data/Diversion.txt
-            PyFunceble -f Hosts
+        run: PyFunceble -f https://raw.githubusercontent.com/asaddon/Asads-Hosts/master/data/Diversion.txt
        
       - name: Run DiversionUpdate
         run: python DiversionUpdate.py 
