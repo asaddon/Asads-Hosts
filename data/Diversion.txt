@@ -322,8 +322,6 @@ config.unityads.unity3d.com
 cpalead.com
 crispads.com
 crispadvertising.com
-cse.google.com
-csi.gstatic.com
 customad.cnn.com
 da-ads.com
 d.adroll.com
