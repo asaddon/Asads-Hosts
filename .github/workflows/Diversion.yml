@@ -1,0 +1,43 @@
+name: Diversion
+on: push
+env:
+  CI: true
+  PYFUNCEBLE_AUTO_CONFIGURATION: y
+  PYFUNCEBLE_OUTPUT_LOCATION: data
+
+jobs:
+  URL-Check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: Setup TimeZone
+        uses: zcong1993/setup-timezone@master
+        with:
+         timezone: Asia/Karachi
+        
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.5
+          architecture: "x64"
+        
+      - name: Install Python Add-ons
+        run: pip install PyFunceble==3.3.10
+
+      - name: Run PyFunceble
+        run: PyFunceble -f https://raw.githubusercontent.com/asaddon/Asads-Hosts/master/data/Diversion
+       
+      - name: Run DiversionUpdate
+        run: python DiversionUpdate.py 
+        
+      - name: Run GitPush
+        run: |
+          git config user.name asaddon-actions
+          git config user.email asaddon@github.com
+          git add data/output/hosts/ACTIVE/hosts
+          git add hosts
+          dateAndMonth=`date +"%a, %b %e, %Y %r %Z"`
+          git commit -m "GH Actions Domain Update: $dateAndMonth (Build $GITHUB_RUN_NUMBER)"
+          git push
