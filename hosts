@@ -1,6 +1,6 @@
 # Title: Asads-Hosts
-# Date: 30 October 2022 12:02:00 AM (PKT)
-# Number of unique domains: 503
+# Date: 24 March 2023 10:37:13 PM (PKT)
+# Number of unique domains: 524
 # ===============================================================
 
 
@@ -9,6 +9,7 @@
 
 
 
+a4.applovin.com
 a.ad.gt
 a.bf-ad.net
 a.huluad.com
@@ -16,10 +17,8 @@ aax.amazon-adsystem.amazon.com
 ad4mat.de
 ad120m.com
 ad127m.com
-ad131m.com
 ad.71i.de
 ad.adnet.de
-ad.atdmt.com
 ad.crwdcntrl.net
 ad.domainfactory.de
 ad.flipboard.com
@@ -48,6 +47,7 @@ adclick.com
 adcolony.com
 adcolony.org
 ad-creatives-public.commondatastorage.googleapis.com
+adcs-ue.myappsget.com
 ad-delivery.net
 adeventtracker.spotify.com
 adexchangetracker.com
@@ -128,7 +128,6 @@ ads.servenobid.com
 ads.shorte.st
 ads.smartstream.tv
 ads.superawesome.tv
-ads.tapdaq.com.cdn.cloudflare.net
 ads.themoneytizer.com
 ads.twitter.com
 ads.urban-media.com
@@ -230,17 +229,20 @@ alya.iad-03.braze.com
 amazon-adsystem.com
 ams-ads-cornerstone-creatives.s3.amazonaws.com
 ams-ads-cornerstone-creatives-eu.s3.amazonaws.com
+analytics-tcp.mintegral.net
 antenna.ayads.co
-api.adthor.com
+api.anythinktech.com
 api.clickaine.com
 api.cloudmobi.net
 api.exc.mob.com
 api.feedad.com
 api.flocktory.com
 api.mobpowertech.com
+api.sve.cc
 api.theadex.com
 api.uca.cloud.unity3d.com
 api.vungle.akadns.net
+api.youngle.tech
 app.networkad.net
 appads.com
 applead.net
@@ -252,6 +254,7 @@ appnexus.com
 app-sjqe.marketo.com
 asdkd.tutuapp.com
 askfm.adspirit.de
+assets.applovin.com
 athena-ads.wikia.com
 auction.unityads.unity3d.com
 bannerads.de
@@ -285,12 +288,12 @@ cdn2.admatic.com.tr
 cdn4.buysellads.net
 cdn.adligature.com
 cdn.adrtx.net
-cdn.ads.fotoable.net
 cdn.adspirit.de
 cdn.adtrue.com
 cdn.advertserve.com
 cdn.dlyads.com
 cdn.inskinad.com
+cdn.liftoff-creatives.io
 cdn.unityads.unity3d.com
 cdn-highwinds.unityads.unity3d.com
 cdp.cloud.unity3d.com
@@ -307,9 +310,11 @@ crispads.com
 crispadvertising.com
 customad.cnn.com
 d.adroll.com
+d.applovin.com
 da-ads.com
 data.ad-score.com
 data-optout-service.uca.cloud.unity3d.com
+datk.anythinktech.com
 de.ads.justpremium.com
 demoad.com
 demoads.com
@@ -332,6 +337,7 @@ exoticads.com
 eyeviewads.com
 flashtalking.com
 fyber.com
+gdl.bytegle.tech
 ghs.googlehosted.com
 go.admost.com
 googleadservices.com
@@ -340,12 +346,17 @@ googlesyndication.com
 googletagservices.com
 googletraveladservices.com
 grooksom.com
+h.trace.qq.com
 httpkafka.unityads.unity3d.com
 iadnet.com
 iadsdk.apple.com
 ih.adscale.de
+image.winudf.com
+images-dl.taboola.com
 imasdk.googleapis.com
 immobi.com
+impression-east.liftoff.io
+impression-europe.liftoff.io
 infinite-ads.com
 infinityads.com
 inmobi.com
@@ -356,6 +367,7 @@ intelliads.com
 inter1ads.com
 ipw.metadsp.co.uk
 jinkads.de
+jnn-pa.googleapis.com
 js.adscale.de
 js.ad-score.com
 js.hsadspixel.net
@@ -372,6 +384,7 @@ layer-ad.de
 layer-ads.de
 leadboltads.net
 liveadexchanger.com
+logs.browser-intake-datadoghq.com
 luxadv.com
 m.adsymptotic.com
 m.yap.yahoo.com
@@ -389,16 +402,19 @@ med-api.admost.com
 media.adstatic.com
 media.net
 mgid.com
+midas-tracker.hellay.net
 mixadvert.com
 moatads.com
 mopub.com
 motoads.com
 movad.de
+ms4.applovin.com
+ms.applovin.com
 msads.net
 mxtads.com
 myfastcdn.com
-mytrafficads.com
 nativead.s3.amazonaws.com
+net.rayjump.com
 newstarads.com
 nexage.com
 o.aolcdn.com
@@ -423,6 +439,7 @@ popmyads.com
 popup.msn.com
 predictad.com
 pro-advertising.com
+prod-ms4.applovin.com
 propellerads.com
 propellerclick.com
 publisher-config.unityads.unity3d.com
@@ -430,6 +447,7 @@ publisher-event.ads.prd.ie.internal.unity3d.com
 pushspring.com
 rampidads.com
 riptukri.net
+rt.applovin.com
 runads.com
 runative-syndicate.com
 run-syndicate.com
@@ -453,6 +471,7 @@ strikeadcdn.s3.amazonaws.com
 supersonic.com
 supersonicads.com
 supersonicads-a.akamaihd.net
+svibeacon.onezapp.com
 switchadhub.com
 tags-cdn.deployads.com
 tapad.com
@@ -474,12 +493,13 @@ unileadnetwork.com
 unityads.co.com
 unityads.com
 unityads.unity3d.com
+up-hl.3g.qq.com
 valuead.com
 venetia.iad.appboy.com
 venturead.com
 viatepigan.com
+vibeaconstr.onezapp.com
 vip.adstatic.com
-voodoo-ads.io
 vungle.com
 waiads.com
 webads.co.nz
@@ -498,6 +518,7 @@ yandexadexchange.net
 yieldads.com
 youradchoices.com
 youradexchange.com
+yun-hl.3g.qq.com
 za-ads.de
 zadcloud.com
 zemanta.com
