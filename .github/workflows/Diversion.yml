@@ -20,11 +20,11 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.10.5
+          python-version: 3.12
           architecture: "x64"
         
       - name: Install Python Add-ons
-        run: pip install PyFunceble==3.3.10
+        run: pip install PyFunceble
 
       - name: Run PyFunceble
         run: PyFunceble -f https://raw.githubusercontent.com/asaddon/Asads-Hosts/master/data/Diversion
