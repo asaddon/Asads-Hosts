@@ -24,7 +24,7 @@ jobs:
           architecture: "x64"
         
       - name: Install Python Add-ons
-        run: pip install PyFunceble
+        run: pip install --upgrade pyfunceble
 
       - name: Run PyFunceble
         run: PyFunceble -f https://raw.githubusercontent.com/asaddon/Asads-Hosts/master/data/Diversion
