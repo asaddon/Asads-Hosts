@@ -69,7 +69,7 @@ def get_defaults():
         "compress": False,
         "minimise": False,
         "outputsubfolder": "",
-        "hostfilename": "hosts",
+        "hostfilename": "list",
         "targetip": "0.0.0.0",
         "sourcedatafilename": "update.json",
         "sourcesdata": [],
