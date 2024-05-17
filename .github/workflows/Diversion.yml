@@ -37,7 +37,7 @@ jobs:
           git config user.name asaddon-actions
           git config user.email asaddon@github.com
           git add data/output/Diversion/domains/ACTIVE/list
-          git add list
+          git add hosts
           dateAndMonth=`date +"%a, %b %e, %Y %r %Z"`
           git commit -m "GH Actions Domain Update: $dateAndMonth (Build $GITHUB_RUN_NUMBER)"
           git push
