@@ -58,7 +58,7 @@ def get_defaults():
 
     return {
         "numberofrules": 0,
-        "datapath": path_join_robust(BASEDIR_PATH, "data","output","hosts","ACTIVE"),
+        "datapath": path_join_robust(BASEDIR_PATH, "data","output","Diversion","domains","ACTIVE"),
         "freshen": True,
         "replace": False,
         "backup": False,
